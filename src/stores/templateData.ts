@@ -12,7 +12,7 @@ export const useTemplateDataStore = defineStore('templateData', {
 
   // derive values from state (similar to computed properties)
   getters: {
-    substring: (state) => state.hello.substring(1, 2),
+    substring: (state) => state.hello.slice(1, 2),
   },
 
   // mutate state
