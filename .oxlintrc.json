@@ -119,6 +119,9 @@
     "no-div-regex": "warn",
     "no-empty-function": "warn",
     "no-warning-comments": ["warn", { "terms": ["todo", "fixme"] }],
+    "no-shadow": "warn",
+    "no-use-before-define": "warn",
+    "no-unmodified-loop-condition": "warn",
 
     // standard eslint
     "constructor-super": "warn",
@@ -202,6 +205,8 @@
     "vitest/prefer-to-be-object": "warn",
     "vitest/require-local-test-context-for-concurrent-snapshots": "warn",
     "vitest/warn-todo": "warn",
+    "vitest/prefer-import-in-mock": "warn",
+    "vitest/prefer-expect-type-of": "warn",
 
     // jest
     "jest/valid-title": ["warn", { "ignoreTypeOfDescribeName": true }],
@@ -350,6 +355,23 @@
     "typescript/triple-slash-reference": ["warn", { "lib": "never", "path": "never", "types": "never" }],
     "typescript/unbound-method": "warn",
     "typescript/use-unknown-in-catch-callback-variable": "warn",
+    "typescript/dot-notation": "warn",
+    "typescript/no-useless-default-assignment": "warn",
+    "typescript/no-unnecessary-type-parameters": "warn",
+    "typescript/prefer-string-starts-ends-with": ["warn", { "allowSingleElementEquality": "never" }],
+    "typescript/prefer-regexp-exec": "warn",
+    "typescript/prefer-readonly": "warn",
+    "typescript/no-unnecessary-qualifier": "warn",
+    "typescript/prefer-find": "warn",
+    "typescript/prefer-readonly-parameter-types": "warn",
+    "typescript/strict-void-return": "warn",
+    "typescript/consistent-type-exports": "warn",
+    "typescript/unified-signatures": "warn",
+    "typescript/parameter-properties": "off",
+    "typescript/no-unnecessary-condition": "warn",
+    "typescript/class-literal-property-style": "off",
+    "typescript/no-invalid-void-type": "warn",
+    "typescript/consistent-type-assertions": ["warn", { "assertionStyle": "never" }],
 
     // unicorn
     "unicorn/catch-error-name": "warn",
