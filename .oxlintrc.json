@@ -120,7 +120,7 @@
     "no-empty-function": "warn",
     "no-warning-comments": ["warn", { "terms": ["todo", "fixme"] }],
     "no-shadow": "warn",
-    "no-use-before-define": "warn",
+    "no-use-before-define": ["warn", { "functions": false }],
     "no-unmodified-loop-condition": "warn",
 
     // standard eslint
