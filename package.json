@@ -13,13 +13,13 @@
     "lint:ci": "oxlint --deny-warnings"
   },
   "devDependencies": {
-    "@types/node": "^25.4.0",
-    "@vitejs/plugin-vue": "^6.0.4",
-    "oxfmt": "^0.39.0",
-    "oxlint": "^1.54.0",
+    "@types/node": "^25.5.0",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "oxfmt": "^0.40.0",
+    "oxlint": "^1.55.0",
     "pinia": "^3.0.4",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1",
+    "vite": "^8.0.0",
     "vue": "^3.5.30",
     "vue-tsc": "^3.2.4"
   }
