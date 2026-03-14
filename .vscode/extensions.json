@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "oxc.oxc-vscode",
+    "sonarsource.sonarlint-vscode",
+    "vue.volar"
+  ]
+}
