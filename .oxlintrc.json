@@ -4,9 +4,8 @@
   "categories": {},
   "options": {
     "reportUnusedDisableDirectives": "warn",
-    // enable when TS v7 is out
-    // "typeAware": true,
-    // "typeCheck": true,
+    "typeAware": true,
+    // "typeCheck": true, // still has some issues with Vue (module not found: App.vue)
   },
   "rules": {
     // eslint
