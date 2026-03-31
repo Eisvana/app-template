@@ -211,6 +211,10 @@
     "vitest/warn-todo": "warn",
     "vitest/prefer-import-in-mock": "warn",
     "vitest/prefer-expect-type-of": "warn",
+    "vitest/require-awaited-expect-poll": "warn",
+    "vitest/require-mock-type-parameters": "warn",
+    "vitest/prefer-called-exactly-once-with": "warn",
+    "vitest/require-test-timeout": "off",
 
     // jest
     "jest/valid-title": ["warn", { "ignoreTypeOfDescribeName": true }],
