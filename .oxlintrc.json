@@ -523,7 +523,7 @@
   },
   "overrides": [
     {
-      "files": ["*.vue"],
+      "files": ["*.vue", "*.d.ts"],
       "rules": {
         "import/unambiguous": "off", // reports some Vue components erroneously if they don't have imports/exports
       },
